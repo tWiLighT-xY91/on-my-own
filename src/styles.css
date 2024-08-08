@@ -56,3 +56,29 @@ body{
     width: 153px;
     height: 42px;
 }
+#button:hover{
+    background-color: white;
+    color: black;
+}
+#news-section{
+    padding: 50px 30px 40px 30px;
+}
+#news-card-1{
+    border: 1px solid #1111;
+}
+#news-title{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.newsimages{
+    margin-bottom: 20px;
+}
+.news-dates{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    color: #b7b7b7;
+    font-weight: 400;
+}
