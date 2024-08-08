@@ -1,6 +1,10 @@
 body{
     max-width: 375px;
 }
+a {
+    text-decoration: none;
+    color: #D9852C;
+}
 #top-section{
     max-width: 375px;
     background-image: url(Background.png);
@@ -63,8 +67,11 @@ body{
 #news-section{
     padding: 50px 30px 40px 30px;
 }
-#news-card-1{
+.news-card{
     border: 1px solid #1111;
+    box-shadow:2px 2px ghostwhite;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 #news-title{
     font-family: 'Inter';
@@ -81,4 +88,23 @@ body{
     font-family: 'Inter';
     color: #b7b7b7;
     font-weight: 400;
+    padding-left: 20px;
+}
+.news{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.read-more{
+    text-align: right;
+    padding-right: 20px;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
