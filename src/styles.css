@@ -1,3 +1,58 @@
-#hero-section{
+body{
+    max-width: 375px;
+}
+#top-section{
+    max-width: 375px;
     background-image: url(Background.png);
+}
+#hero-section{
+    display: flex;
+}
+#logo{
+    height: 37;
+    width: 167;
+    margin: 30px;
+}
+#menu{
+    padding-left: 70px;
+    height: 35;
+    width: 35;
+}
+#rectangle{
+    height: 15;
+    width: 90;
+    margin: 200px 0px 30px 30px;
+}
+#hero-section-text{
+    font-family: 'Libre Caslon Display';
+    font-size: 50px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+#hero-section-small{
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+#button-section{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 150px;
+}
+#button{
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 18px;
+    width: 153px;
+    height: 42px;
 }
