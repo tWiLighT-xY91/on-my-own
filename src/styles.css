@@ -20,8 +20,8 @@ a {
 }
 #menu{
     padding-left: 610px;
-    height: 35;
-    width: 35;
+    height: 70;
+    width: 70;
 }
 #rectangle{
     height: 15;
@@ -60,6 +60,9 @@ a {
     font-size: 36px;
     width: 253px;
     height: 122px;
+}
+#section2{
+    display: none;
 }
 #button:hover{
     background-color: white;
@@ -110,4 +113,16 @@ a {
     font-size: 15px;
     font-weight: 300;
     margin-bottom: 50px;
+}
+@media screen and (min-width: 1020px) {
+    #hero-section{
+        display: flex;
+
+}
+#section1{
+    display: none;
+}
+#section2{
+    display: flex;
+}
 }
