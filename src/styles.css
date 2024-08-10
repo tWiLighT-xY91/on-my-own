@@ -114,7 +114,13 @@ a {
     font-weight: 300;
     margin-bottom: 50px;
 }
+@
+
+
 @media screen and (min-width: 1020px) {
+    body{
+        max-width: 1080px;
+    }
     #hero-section{
         display: flex;
 
@@ -124,5 +130,55 @@ a {
 }
 #section2{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#get-started{
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 18px;
+    width: 200px;
+    height: 50px; 
+    margin-top: 20px;
+}
+#get-started:hover{
+    background-color: white;
+    color: black;
+}
+#logo1{
+    padding-left: -20px;
+    height: 37;
+    width: 157;
+}
+#home{
+    padding-left: 30px;
+    
+}
+#company{
+    padding-top: 5px;
+}
+#button{
+    height: 80px;
+    font-size: 24px;
+}
+#hero-section-small{
+    font-size: 32px;
+}
+#news-card-section{
+    display: flex;
+    flex-direction: row;
+}
+.news-card{
+    width: 33%;
+    padding: 5px;
+}
+.newsimages{
+    width: 330px;
+    height: 400px;
+    align-items: center;
 }
 }
